@@ -2,15 +2,11 @@
 
 /*General Style*/
 :root {
-  --paddingform: 0.2rem 2rem 0.2rem 2rem;
+  --paddingform: 0.2rem 1.5rem 0.2rem 1.5rem;
   --bordercolor: black;
   --borderstyle: solid;
 }
-/* *,
-*:before,
-*:after {
-  box-sizing: border-box;
-} */
+
 body {
   background-color: lightsalmon;
 }
@@ -54,9 +50,3 @@ body {
   margin: 5px;
   border-color: var(--bordercolor);
 }
-
-/* @media screen and (max-width: 992px) {
-  html {
-    font-size: 20px;
-  }
-} */
