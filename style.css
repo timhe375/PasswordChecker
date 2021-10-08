@@ -3,6 +3,8 @@
 /*General Style*/
 :root {
   --paddingform: 0.2rem 2rem 0.2rem 2rem;
+  --bordercolor: black;
+  --borderstyle: solid;
 }
 /* *,
 *:before,
@@ -43,12 +45,14 @@ body {
   color: white;
   padding: var(--paddingform);
   border-radius: 0.2rem;
-  border-color: rgb(0, 0, 0);
+  border-style: var(--borderstyle);
+  border-color: var(--bordercolor);
 }
 .main-section-input {
+  border-style: var(--borderstyle);
   border-radius: 0.2rem;
   margin: 5px;
-  border-color: rgb(0, 0, 0);
+  border-color: var(--bordercolor);
 }
 
 /* @media screen and (max-width: 992px) {
