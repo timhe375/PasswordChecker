@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Password Check</h1>
+    </header>
+    <main>
+      <section class="main-section-form">
+        <form onsubmit="return false">
+          <br />
+          <input id="input1" class="main-section-input" type="password" /><br />
+          <input id="input2" class="main-section-input" type="password" /><br />
+          <button id="showPassword" class="main-section-button">
+            Show Password
+          </button>
+        </form>
+      </section>
+      <section class="main-section-p">
+        <p>Passwords are equal<span class="input" id="pw-equal">❌</span></p>
+        <p>Lower Case Letters<span class="input" id="pw-lowercase">❌</span></p>
+        <p>Upper Case Letters<span class="input" id="pw-uppercase">❌</span></p>
+        <p>Contains Numbers<span class="input" id="pw-numbers">❌</span></p>
+        <p>
+          At least 10 characters long<span class="input" id="pw-char">❌</span>
+        </p>
+      </section>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>

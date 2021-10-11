@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/*General Style*/
+:root {
+  --paddingform: 0.2rem 1.5rem 0.2rem 1.5rem;
+  --bordercolor: black;
+  --borderstyle: solid;
+}
+
+body {
+  background-color: lightsalmon;
+}
+header {
+  font-family: "Lobster", sans-serif;
+}
+main {
+  font-family: "OpenSans", sans-serif;
+}
+
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 20px;
+  }
+  .main-section-form {
+    display: inline flex;
+    flex-direction: row;
+    align-content: space-around;
+  }
+  .main-section-p {
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
+
+body {
+  text-align: center;
+}
+
+.main-section-button {
+  background-color: black;
+  color: white;
+  padding: var(--paddingform);
+  border-radius: 0.2rem;
+  border-style: var(--borderstyle);
+  border-color: var(--bordercolor);
+}
+.main-section-input {
+  border-style: var(--borderstyle);
+  border-radius: 0.2rem;
+  margin: 5px;
+  border-color: var(--bordercolor);
+}
