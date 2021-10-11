@@ -35,9 +35,6 @@ main {
 body {
   text-align: center;
 }
-p {
-  display: inline;
-}
 
 .main-section-button {
   background-color: black;
