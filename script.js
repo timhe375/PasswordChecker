@@ -19,7 +19,7 @@ function pwChecks() {
     numberCheck();
     charCheck();
   } else {
-    uncheckAll;
+    uncheckAll();
   }
 }
 //  -Passwords are equal
@@ -31,6 +31,7 @@ function equalCheck() {
   } else {
     const equalPw = document.getElementById("pw-equal");
     equalPw.innerText = "❌";
+    return false;
   }
 }
 //  -Password contains at least one lower case character
