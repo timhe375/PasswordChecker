@@ -16,6 +16,7 @@ header {
 main {
   font-family: "OpenSans", sans-serif;
 }
+
 @media screen and (min-width: 700px) {
   html {
     font-size: 20px;
@@ -30,12 +31,14 @@ main {
     flex-direction: column;
   }
 }
+
 body {
   text-align: center;
 }
-.main-section-form {
-  margin: 2px;
+p {
+  display: inline;
 }
+
 .main-section-button {
   background-color: black;
   color: white;
